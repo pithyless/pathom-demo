@@ -55,10 +55,13 @@ There are sample queries in [src/demo/notes.cljs](src/demo/notes.cljs).
 
 # Credits
 
-Huge amount of work has gone into the [Fulcro](https://fulcro.fulcrologic.com)
-and [Pathom](https://github.com/wilkerlucio/pathom) projects.
+Huge amount of work has gone into the [Fulcro](https://fulcro.fulcrologic.com),
+[Pathom](https://github.com/wilkerlucio/pathom),
+and [shadow-cljs](http://shadow-cljs.org) projects.
 Shout out to everyone contributing to the projects and the core maintainers
-[Tony Kay](https://github.com/awkay) and [Wilker Lúcio](https://twitter.com/wilkerlucio)
+[Tony Kay](https://github.com/awkay),
+[Wilker Lúcio](https://twitter.com/wilkerlucio),
+and [Thomas Heller](https://twitter.com/thheller).
 
 The parsing code was borrowed from @wilkerlucio's talks:
 
