@@ -2,9 +2,20 @@
 
 ## Install dependencies
 
+Node packages:
+
 ```
 $ npm install
 ```
+
+Install Clojure
+
+```
+$ brew install clojure
+```
+
+Other platform options: [Clojure installer](https://www.clojure.org/guides/getting_started#_clojure_installer_and_cli_tools)
+
 
 ## Run Server
 
