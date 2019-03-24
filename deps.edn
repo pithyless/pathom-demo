@@ -1,0 +1,17 @@
+{:path
+ ["src"]
+
+ :deps
+ {org.clojure/clojure       {:mvn/version "1.10.0"}
+  org.clojure/clojurescript {:mvn/version "1.10.520"}
+  com.wsscode/pathom        {:mvn/version "2.2.11"}
+  com.wsscode/pathom-viz    {:mvn/version "1.0.4"}}
+
+ :aliases
+ {:dev
+  {:extra-paths ["test"]
+   :extra-deps  {nubank/workspaces            {:mvn/version "1.0.6"}
+                 cider/cider-nrepl            {:mvn/version "0.21.1"}
+                 fulcrologic/fulcro-incubator {:mvn/version "0.0.30"}
+                 fulcrologic/fulcro-inspect   {:mvn/version "2.2.5"}
+                 binaryage/devtools           {:mvn/version "0.9.10"}}}}}

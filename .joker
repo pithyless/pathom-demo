@@ -1,0 +1,16 @@
+{:known-macros
+ [com.wsscode.pathom.connect/defresolver
+  better-cond.core/cond
+  nubank.workspaces.core/defcard]
+ ;; :known-namespaces
+ ;;   [clojure.string clojure.set]
+ :known-tags
+ []
+ :ignored-unused-namespaces
+ [clojure.spec.alpha clojure.test]
+ :rules
+ {:if-without-else      true
+  :no-forms-threading   false
+  :unused-as            true
+  :unused-fn-parameters	true
+  :fn-with-empty-body   true}}
